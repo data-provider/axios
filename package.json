@@ -65,7 +65,7 @@
     "rollup-plugin-node-resolve": "5.2.0",
     "rollup-plugin-uglify": "6.0.4",
     "sinon": "8.0.4",
-    "start-server-and-test": "1.10.6"
+    "start-server-and-test": "1.10.7"
   },
   "lint-staged": {
     "src/**/*.js": "eslint",
