@@ -28,7 +28,7 @@ import { defaultConfig } from "./defaultConfig";
 export class Axios extends Provider {
   constructor(...args) {
     const [id, options, queryValue] = providerArgsV3(args);
-    super({ id, ...defaultConfig, ...options }, queryValue);
+    super({ ...defaultConfig, ...options, id }, queryValue);
   }
 
   _addOnceBeforeRequest(onceBeforeRequest) {

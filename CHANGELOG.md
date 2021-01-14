@@ -10,6 +10,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixed
 ### Removed
 
+## [2.2.1] - 2021-01-14
+
+### Fixed
+- fix: Overwrite id in options
+
 ## [2.2.0] - 2021-01-07
 
 ### Added
